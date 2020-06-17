@@ -27,6 +27,22 @@ button:hover {
   border: 1px solid #888c90;
 }
 /* buttons */
+#id_ce {
+  margin-top: -187px;
+  margin-left: 2px;
+}
+#id_c {
+  margin-top: -187px;
+  margin-left: 58px;
+}
+#id_del_last {
+  margin-top: -187px;
+  margin-left: 114px;
+}
+#id_divide {
+  margin-top: -187px;
+  margin-left: 170px;
+}
 #id_percent {
   margin-top: -224px;
   margin-left: 2px;
@@ -106,4 +122,15 @@ button:hover {
 #id_multiply {
   margin-top: -150px;
   margin-left: 170px;
+}
+.red_btn {
+  background-color: rgb(247, 47, 47);
+  color: rgb(235, 227, 227);
+}
+#result {
+  position: absolute;
+  margin-top: 102px;
+  margin-left: 330px;
+  font-size: 22px;
+  font-family: monospace;
 }

@@ -10,10 +10,19 @@
     <div class="center">
       <img class="img_bg" src="./images/calc_background.png" alt="calculator" />
 
+      <button id="id_ce" class="red_btn" onclick="foo_ce()">CE</button>
+      <button id="id_c" class="red_btn" onclick="foo_c()">C</button>
+      <button id="id_del_last" class="red_btn" onclick="foo_del_last()">
+        DEL
+      </button>
+      <button id="id_divide" onclick="foo_divide()">&#247;</button>
+
       <button id="id_percent" onclick="foo_percent()">%</button>
       <button id="id_sqrt" onclick="foo_sqrt()">&#x221A;</button>
       <button id="id_pow2" onclick="foo_pow2()">x&#xb2;</button>
-      <button id="id_divide_x" onclick="foo_pow2()">&#x215F;&#x2093;</button>
+      <button id="id_divide_x" onclick="foo_divide_x()">
+        &#x215F;&#x2093;
+      </button>
 
       <button id="id_pl_mi" onclick="foo_pl_mi()">+-</button>
       <button id="id0" onclick="foo_0()">0</button>
@@ -35,6 +44,8 @@
       <button id="id9" onclick="foo_9()">9</button>
       <button id="id_multiply" onclick="foo_multiply()">&#xd7;</button>
     </div>
+
+    <div id="result">0</div>
     <script type="text/javascript" src="./index.js"></script>
   </body>
 </html>
