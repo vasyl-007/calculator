@@ -26,6 +26,23 @@ button {
 button:hover {
   border: 1px solid #888c90;
 }
+/* buttons */
+#id_percent {
+  margin-top: -224px;
+  margin-left: 2px;
+}
+#id_sqrt {
+  margin-top: -224px;
+  margin-left: 58px;
+}
+#id_pow2 {
+  margin-top: -224px;
+  margin-left: 114px;
+}
+#id_divide_x {
+  margin-top: -224px;
+  margin-left: 170px;
+}
 #id_pl_mi {
   margin-top: -37px;
   margin-left: 2px;
